@@ -34,7 +34,7 @@ function initWidget(waifuPath, apiPath) {
 		window.Live2D.captureFrame = true;
 	});
 	$("#waifu-tool .fa-info-circle").click(function() {
-		window.open("https://github.com/stevenjoezhang/live2d-widget");
+		window.open("https://janeswebsite.github.io/");
 	});
 	$("#waifu-tool .fa-times").click(function() {
 		localStorage.setItem("waifu-display", new Date().getTime());
